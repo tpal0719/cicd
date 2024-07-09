@@ -18,10 +18,10 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: tpal0719/cicd
+          project: sem.docker.test/cicd
           stage: main
           yaml: |
-            name: # 프로젝트 이름 ex) `cicd`
+            name: cicd
             app: java@17
             options:
               ports: 8080
