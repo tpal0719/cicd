@@ -18,7 +18,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: nbc.docker2/cicd
+          project: tpal0719/cicd
           stage: main
           yaml: |
             name: # 프로젝트 이름 ex) `cicd`
